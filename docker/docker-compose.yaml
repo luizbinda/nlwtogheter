@@ -1,0 +1,9 @@
+version: '2'
+services:
+  nlw-postgresql:
+    image: postgres:11.5
+    environment:
+      - POSTGRES_USER=nlw
+      - POSTGRES_PASSWORD=nlw
+    ports:
+      - 5432:5432
